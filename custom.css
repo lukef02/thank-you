@@ -1,0 +1,142 @@
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+  }
+  .col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+  }
+
+  .container {
+    text-align:center;
+  }
+
+  .fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%
+}
+
+.card-img {
+  width: 150px;
+    height: 10px;
+    background-image: url("img/cards.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.hero-background {
+  background-image: url(img/cards-white.png); 
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  min-height:70em; 
+}
+
+h1 {
+  font-size: 3.7em !important;
+  color:black;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: Bentham, sans-serif;
+  font-size: 2.5em;
+  color: black;
+}
+
+p {
+  font-size: 1.6em !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+p.how {
+  font-weight: 300;
+  font-size: 1.4em !important;
+  margin-bottom: 3.5em;
+}
+
+.header-logo {
+  max-height:3em;
+  margin-left:5em;
+  margin-top: 1em;
+}
+
+.footer-logo {
+  max-height:5em;
+  margin-left:5em;
+}
+
+.subscribe {
+  border:
+}
+
+.btn-primary {
+  background: black;
+  border: 0 none;
+  padding: 1em 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover, .btn-primary:focus .btn-primary:active {
+  background: #7EA0A9;
+}
+
+.border {
+  border: 1px black;
+}
+
+.how-steps {
+  max-height: 2em;
+}
+
+.info-square {
+min-height: 20em;
+text-align: center;
+color: white !important;
+}
+
+.info-square:hover {
+  background-color: white;
+}
+
+.artist-help {
+  background-color: #7EA0a9;
+}
+
+.why-charge {
+  background-color: #f5dac7;
+}
+
+.feedback {
+  background-color: #ff928B;
+}
+
+
+
+.footer {
+  background: #3c4e66;
+  min-height: 4em;
+}
+
+.footer-text {
+  color:white !important;
+  font-size: 1.5em !important;
+  font-weight: lighter !important;
+}
