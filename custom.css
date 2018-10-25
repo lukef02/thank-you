@@ -116,7 +116,7 @@ div {
 }
 
 .info-square {
-min-height: 35em;
+min-height: 40em;
 text-align: center;
 color: white !important;
 }
@@ -126,7 +126,7 @@ color: white !important;
 
 .about-section {
   text-align: left;
-  margin-left: 18em;
+  margin-left: 10em;
   margin-top: 4em;
   color: black;
 }
@@ -143,22 +143,59 @@ color: white !important;
   font-weight: 500;
   font-size: 2em !important;
   margin-bottom: 1em;
-  padding-right:1em;
+  padding-right:3.5em;
 }
 
-.why-charge {
-  background-color: #7EA0a9;
-}
+
 
 .artist-help {
   background-color: #f5dac7;
 }
 
-.feedback {
-  background-color: #ff928B;
+.why-charge {
+  background-color: #7EA0a9;
+  min-height:20em;
 }
 
+.feedback-tile {
+  background-color: #ff928B;
+  min-height:20em;
 
+}
+
+.tile-header {
+  color:white;
+  font-weight: 200;
+  font-size: 1em !important;
+  letter-spacing: 1.1px;
+  margin-top: 4em;
+  margin-left: 3em;
+}
+
+.tile-text {
+  color:white;
+  font-weight: 400;
+  font-size: 1.5em !important;
+  letter-spacing: 1.0px;
+  margin-left: 2.0em;
+  line-height:1.2em;
+}
+
+.feedback-button {
+  margin-left: 3em !important;
+  margin-top: 1em;
+  background-color: transparent;
+  color:white;
+  border: 1px solid white;
+}
+
+.feedback-button:hover {
+  margin-left: 3em !important;
+  margin-top: 1em;
+  background-color: white;
+  color:#ff928B;
+  border: 1px solid white;
+}
 
 .footer {
   background: #3c4e66;
