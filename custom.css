@@ -43,6 +43,11 @@
   min-height:70em; 
 }
 
+.how-background {
+  background-image:url(img/side_triangle.png);
+  background-repeat: no-repeat; 
+}
+
 h1 {
   font-size: 3.7em !important;
   color:black;
@@ -104,6 +109,10 @@ p.how {
 
 .how-steps {
   max-height: 2em;
+}
+
+div {
+  border: 0px solid black;
 }
 
 .info-square {
